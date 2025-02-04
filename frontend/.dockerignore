@@ -1,0 +1,30 @@
+# Ignorar node_modules para evitar cópia desnecessária
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# Ignorar a pasta de build do Vite
+dist
+
+# Ignorar arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignorar configurações do editor de código
+.vscode
+.idea
+*.swp
+*.swo
+
+# Ignorar logs e cache do sistema
+logs
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de dependências do Docker
+docker-compose.override.yml
