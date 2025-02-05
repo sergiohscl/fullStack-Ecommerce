@@ -30,8 +30,10 @@
 
     npm install -g json-server
 
-# criando imagem docker build
+# Rodando projeto em Docker
+
+## criando imagem docker build
     docker build -t sergiohscl/react-ecommerce-image .
 
-# rodando o container com imagem
+## rodando o container com imagem
     docker run -d -p 5173:5173 --name frontend-react --network library-network sergiohscl/react-ecommerce-image
